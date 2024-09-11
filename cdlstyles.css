@@ -7,7 +7,7 @@
     margin-right: auto !important;
     margin-top: 10px !important;
     padding:10px !important;
-    border: 2px solid rgb(7, 105, 59) !important;
+    border: 2px solid rgb(7, 105, 59, .2) !important;
 }
 html.hillstar-theme #colibri [data-colibri-component="dropdown-menu"] ul {
 justify-content: none !important
@@ -250,4 +250,7 @@ height: 200%;
 }
 .h-navigation-padding {
     padding-top: 60px !important;
+}
+.remove-border-radius{
+    border-radius: 0 !important;
 }
